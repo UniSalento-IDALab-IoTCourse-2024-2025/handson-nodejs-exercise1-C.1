@@ -50,3 +50,8 @@ app.post("/temperature", (req, res, next) => {
     res.sendStatus(200);
 
 });
+
+app.get('/dashboard', (req, res) => {
+    res.send('Hello World!');
+})
+
